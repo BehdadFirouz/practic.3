@@ -1,0 +1,5 @@
+h ,m ,s=input("Enter time with format h:m:s         ").split(':')
+h1=int(h)
+m1=int(m)
+s1=int(s)
+print(h1*3600+m1*60+s1)
